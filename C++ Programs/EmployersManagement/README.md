@@ -12,7 +12,7 @@ This Employee Management System is a console-based C++ application designed for 
 - **Save to File:** Persist employee data to a file, ensuring data is retained across sessions.
 
 ## Usage
-- After launching the program, follow the on-screen prompts to manage employee data:
+After launching the program, follow the on-screen prompts to manage employee data:
 - **Add Employee:** Input details for a new employee.
 - **List Employees:** View all employee records.
 - **Edit Employee:** Modify details of an existing employee.
@@ -22,9 +22,9 @@ This Employee Management System is a console-based C++ application designed for 
 - Choose an option by entering the corresponding number.
 
 ## File Structure
-- **Employee Struct:** A structure to define employee attributes like name, ID, position, and age.
+**Employee Struct:** A structure to define employee attributes like name, ID, position, and age.
 Function Definitions:
-<li> writeToFile: Saves the current state of employees to a file. </li>
+<li>writeToFile: Saves the current state of employees to a file. </li>
 <li>readFromFile: Loads employee data from a file.</li>
 <li>addEmployee: Adds a new employee to the system.</li>
 <li>listEmployees: Lists all employees in the system.</li>
@@ -48,5 +48,5 @@ Contributions are welcome. Fork the project, make changes, and submit a pull req
 2. Compile the program using a C++ compiler:
    ```bash
    g++ main.cpp -o EmployeeManagement.exe
-   ./EmployeeManagement
+   ./EmployeeManagement.exe
 
